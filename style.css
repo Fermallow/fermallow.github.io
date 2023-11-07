@@ -11,15 +11,56 @@
   src: url(font/JetBrainsMono-Medium.ttf);
 }
 
-div.heading {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(4, 4, 4);
+}
+button.fermallow {
+  float: left;
+  display: block;
   color: white;
-  position: sticky;
-  left: 20px;
-  top: 20px;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
   font-family: clashdisplay;
   font-size: 50px;
-  display: inline;
+  text-align: center;
+  border-color: white;
+  border-style: none;
+  background-color: rgb(4, 4, 4);
 }
+button.test {
+  color: white;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  font-family: clashdisplay;
+  font-size: 50px;
+  text-align: center;
+  float: right;
+  padding: 20px 30px;
+  border-color: white;
+  border-style: none;
+  background-color: rgb(4, 4, 4);
+}
+button.about {
+  color: white;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  font-family: clashdisplay;
+  font-size: 50px;
+  text-align: center;
+  float: right;
+  padding: 20px 30px;
+  border-color: white;
+  border-style: none;
+  background-color:rgb(4, 4, 4);
+}
+
 body {
   background-color: rgb(12, 12, 12);
 }
@@ -29,10 +70,17 @@ button:hover {
   border-color: white;
   border-style: solid;
   color: black;
+  
 }
 button:active {
   background-color: white;
   border-color: white;
   border-style: solid;
   color: white;
+}
+button.fermallow:active {
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  color: black;
 }
