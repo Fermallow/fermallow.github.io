@@ -1,8 +1,14 @@
 @font-face {
   font-family: clashdisplay;
-  src: url(font/ClashDisplay-Medium.woff);
-  src: url(font/ClashDisplay-Medium.woff2);
   src: url(font/ClashDisplay-Medium.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(font/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: jetbrains;
+  src: url(font/JetBrainsMono-Medium.ttf);
 }
 
 body {
