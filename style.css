@@ -11,62 +11,18 @@
   src: url(font/JetBrainsMono-Medium.ttf);
 }
 
+div.heading {
+  color: white;
+  position: sticky;
+  left: 20px;
+  top: 20px;
+  font-family: clashdisplay;
+  font-size: 50px;
+  display: inline;
+}
 body {
   background-color: rgb(12, 12, 12);
 }
-button.home {
-  position: relative;
-  left: 850px;
-  top: 10px;
-  background-color:black;
-  border-color: white;
-  border-style: solid;
-  color: white;
-  height: 50px;
-  width: 150px;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  margin: 5px;
-  transition: background-color 0.15s;
-  font-family:clashdisplay;
-
-}
-button.testbutton {
-  position: relative;
-  left: 850px;
-  top: 10px;
-  background-color:black;
-  border-color: white;
-  border-style: solid;
-  color: white;
-  height: 50px;
-  width: 150px;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  margin: 5px;
-  transition: background-color 0.15s;
-  font-family:clashdisplay;
-
-}
-  button.fermallow {
-    position: relative;
-    left: 850px;
-    top: 10px;
-    background-color:black;
-    border-color: white;
-    border-style: solid;
-    color: white;
-    height: 50px;
-    width: 150px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin: 5px;
-    transition: background-color 0.15s;
-    font-family:clashdisplay;
-  }
 
 button:hover {
   background-color:white;
