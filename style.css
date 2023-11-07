@@ -1,8 +1,8 @@
 @font-face {
   font-family: clashdisplay;
-  src: url(ClashDisplay-Medium.woff);
-  src: url(ClashDisplay-Medium.woff2);
-  src: url(ClashDisplay-Medium.ttf);
+  src: url(font/ClashDisplay-Medium.woff);
+  src: url(font/ClashDisplay-Medium.woff2);
+  src: url(font/ClashDisplay-Medium.ttf);
 }
 
 body {
