@@ -1,15 +1,6 @@
-
 @font-face {
-  font-family: 'clashdisplaymed';
-  src: url('../fonts/ClashDisplay-Medium.woff2') format('woff2'),
-       url('../fonts/ClashDisplay-Medium.woff') format('woff'),
-       url('../fonts/ClashDisplay-Medium.ttf') format('truetype');
-       font-weight: 500;
-       font-display: swap;
-       font-style: normal;
-}
-div {
-  font-family: clashdisplaymed;
+  font-family: clashdisplay;
+  src: url(ClashDisplay-Medium.woff);
 }
 
 body {
@@ -30,6 +21,7 @@ button {
   text-align: center;
   margin: 5px;
   transition: background-color 0.15s;
+  font-family:clashdisplay;
 
 }
 button:hover {
