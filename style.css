@@ -1,25 +1,46 @@
-body  {
-    background-color: rgb(4, 4, 4);
-  }
-  head  {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Segoe UI';
-  }
-  
-  h1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Segoe UI';
+
+@font-face {
+  font-family: 'clashdisplaymed';
+  src: url('../fonts/ClashDisplay-Medium.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Medium.woff') format('woff'),
+       url('../fonts/ClashDisplay-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
 }
-  
-  p {
-    color: rgb(255, 255, 255);
-    font-family: 'Segoe UI';
-    font-size: 20px;
+div {
+  font-family: clashdisplaymed;
 }
-  
-  li {
-        display: inline;
- 
+
+body {
+  background-color: rgb(12, 12, 12);
+}
+button {
+  position: relative;
+  left: 850px;
+  top: 10px;
+  background-color:black;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  transition: background-color 0.15s;
+
+}
+button:hover {
+  background-color:white;
+  border-color: white;
+  border-style: solid;
+  color: black;
+}
+button:active {
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  color: white;
 }
