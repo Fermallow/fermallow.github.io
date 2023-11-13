@@ -45,6 +45,7 @@ button.test {
   border-color: white;
   border-style: none;
   background-color: rgb(4, 4, 4);
+ 
 }
 button.about {
   color: white;
@@ -59,6 +60,7 @@ button.about {
   border-color: white;
   border-style: none;
   background-color:rgb(4, 4, 4);
+  
 }
 
 body {
@@ -83,4 +85,17 @@ button.fermallow:active {
   border-color: white;
   border-style: solid;
   color: black;
+}
+p {
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: montserrat;
+  font-size: 50px;
+  text-align: center;
+  padding: 100px 30px;
+  border-color: white;
+  border-style: none;
+
 }
