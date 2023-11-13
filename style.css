@@ -12,11 +12,16 @@
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding: 0px;
+  margin: 0px;
   overflow: hidden;
   background-color: rgb(4, 4, 4);
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  width:100%;
+  z-index: 99999;
 }
 button.fermallow {
   float: left;
@@ -24,28 +29,11 @@ button.fermallow {
   color: white;
   text-align: center;
   padding: 20px 30px;
-  text-decoration: none;
   font-family: clashdisplay;
   font-size: 50px;
-  text-align: center;
   border-color: white;
   border-style: none;
   background-color: rgb(4, 4, 4);
-}
-button.test {
-  color: white;
-  position: relative;
-  left: 0px;
-  top: 0px;
-  font-family: clashdisplay;
-  font-size: 50px;
-  text-align: center;
-  float: right;
-  padding: 20px 30px;
-  border-color: white;
-  border-style: none;
-  background-color: rgb(4, 4, 4);
- 
 }
 button.about {
   color: white;
@@ -60,42 +48,58 @@ button.about {
   border-color: white;
   border-style: none;
   background-color:rgb(4, 4, 4);
-  
 }
 
 body {
   background-color: rgb(12, 12, 12);
 }
-
 button:hover {
   background-color:white;
   border-color: white;
-  border-style: solid;
+  border-style: none;
   color: black;
+
   
 }
 button:active {
   background-color: white;
   border-color: white;
-  border-style: solid;
+  border-style: none;
   color: white;
 }
 button.fermallow:active {
   background-color: white;
   border-color: white;
-  border-style: solid;
+  border-style: none;
   color: black;
 }
 p {
   color: white;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  font-family: montserrat;
-  font-size: 50px;
-  text-align: center;
-  padding: 100px 30px;
-  border-color: white;
-  border-style: none;
+  position: relative;
+  font-family: clashdisplay;
+  font-size: 130px;
+  text-align: left;
+  padding: 0px 50px;
+  margin-top: 200px;
+
+}
+p.evan {
+  color: white;
+  position: relative;
+  font-family: clashdisplay;
+  font-size: 30px;
+  text-align: left;
+  padding: 0px 50px;
+  margin-top: 0px;
+
+}
+p.phar {
+  color: white;
+  position: relative;
+  font-family: clashdisplay;
+  font-size: 30px;
+  text-align: left;
+  padding: 0px 50px;
+  margin-top: 0px;
 
 }
