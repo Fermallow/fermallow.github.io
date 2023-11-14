@@ -45,7 +45,7 @@ button.about {
   background-color:rgb(4, 4, 4);
   
 }
-button.sosmed{
+button.sosmed-ig{
   float: left;
   margin-left: 50px;
   color: white;
@@ -58,7 +58,65 @@ button.sosmed{
   border-style: none;
   background-color: rgb(12, 12, 12);
 }
-
+button.sosmed-ig:hover {
+  border: none;
+  background-image: url(media/instabackground.png);
+  color:white;
+}
+button.sosmed-yt{
+  float: left;
+  margin-left: 50px;
+  color: white;
+  padding: 10px 20px;
+  font-family: clashdisplay;
+  font-size: 30px;
+  display:flex;
+  align-items: center;
+  border-color: white;
+  border-style: none;
+  background-color: rgb(12, 12, 12);
+}
+button.sosmed-yt:hover {
+  border: none;
+  background-image: url(media/ytbackground.png);
+  color:white;
+}
+button.sosmed-spotify{
+  float: left;
+  margin-left: 50px;
+  color: white;
+  padding: 10px 20px;
+  font-family: clashdisplay;
+  font-size: 30px;
+  display:flex;
+  align-items: center;
+  border-color: white;
+  border-style: none;
+  background-color: rgb(12, 12, 12);
+}
+button.sosmed-spotify:hover {
+  border: none;
+  background-image: url(media/spotifybackground.png);
+  color:white;
+}
+button.sosmed-github{
+  float: left;
+  margin-left: 50px;
+  color: white;
+  padding: 10px 20px;
+  font-family: clashdisplay;
+  font-size: 30px;
+  display:flex;
+  align-items: center;
+  border-color: white;
+  border-style: none;
+  background-color: rgb(12, 12, 12);
+}
+button.sosmed-github:hover {
+  border: none;
+  background-image: url(media/gitbackground.png);
+  color:white;
+}
 body {
   background-color: rgb(12, 12, 12);
 }
@@ -108,7 +166,8 @@ p.phar {
   font-size: 30px;
   text-align: left;
   padding: 0px 50px;
-  margin-top: 0px;
+  margin-top: 50px;
+  line-height: 2;
 
 }
 img.sosmed-icon {
