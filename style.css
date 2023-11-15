@@ -3,6 +3,10 @@
   src: url(font/ClashDisplay-Medium.ttf);
 }
 @font-face {
+  font-family: clashdisplay-semibold;
+  src: url(font/ClashDisplay-Semibold.ttf);
+  }
+@font-face {
   font-family: montserrat;
   src: url(font/Montserrat-Medium.ttf);
 }
@@ -48,7 +52,7 @@ p.aboutme {
 p.evan {
   color: white;
   position: relative;
-  font-family: clashdisplay;
+  font-family: clashdisplay-semibold;
   font-size: 40px;
   text-align: left;
   padding: 0px 50px;
@@ -64,7 +68,7 @@ p.info {
 }
 p.evan-2ndrow {
   color: white;
-  font-family: clashdisplay;
+  font-family: clashdisplay-semibold;
   font-size: 40px;
   text-align: left;
   padding: 0px 50px;
