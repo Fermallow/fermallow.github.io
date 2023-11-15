@@ -10,7 +10,9 @@
   font-family: jetbrains;
   src: url(font/JetBrainsMono-Medium.ttf);
 }
-
+body {
+  background-color: rgb(12, 12, 12);
+}
 ul {
   padding: 0px;
   margin: 0px;
@@ -22,6 +24,51 @@ ul {
   right:0px;
   width:100%;
   z-index: 99999;
+}
+ul.bottom {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: rgb(4, 4, 4);
+  left:0px;
+  right:0px;
+}
+p {
+  color: white;
+  position: relative;
+  font-family: clashdisplay;
+  font-size: 130px;
+  text-align: left;
+  padding: 0px 50px;
+  margin-top: 200px;
+
+}
+p.evan {
+  color: white;
+  position: relative;
+  font-family: clashdisplay;
+  font-size: 30px;
+  text-align: left;
+  padding: 0px 50px;
+  margin-top: 0px;
+
+}
+p.phar {
+  color: white;
+  position: relative;
+  font-family: clashdisplay;
+  font-size: 30px;
+  text-align: left;
+  padding: 0px 50px;
+  margin-top: 50px;
+  line-height: 2;
+
+}
+img.sosmed-icon {
+  position:relative;
+  height: 50px;
+  padding: 10px;
+  float: left;
 }
 button.fermallow {
   float: left;
@@ -117,9 +164,6 @@ button.sosmed-github:hover {
   background-image: url(media/gitbackground.png);
   color:white;
 }
-body {
-  background-color: rgb(12, 12, 12);
-}
 button:hover {
   background-color:white;
   border-color: white;
@@ -138,41 +182,4 @@ button.fermallow:active {
   border-color: white;
   border-style: none;
   color: black;
-}
-p {
-  color: white;
-  position: relative;
-  font-family: clashdisplay;
-  font-size: 130px;
-  text-align: left;
-  padding: 0px 50px;
-  margin-top: 200px;
-
-}
-p.evan {
-  color: white;
-  position: relative;
-  font-family: clashdisplay;
-  font-size: 30px;
-  text-align: left;
-  padding: 0px 50px;
-  margin-top: 0px;
-
-}
-p.phar {
-  color: white;
-  position: relative;
-  font-family: clashdisplay;
-  font-size: 30px;
-  text-align: left;
-  padding: 0px 50px;
-  margin-top: 50px;
-  line-height: 2;
-
-}
-img.sosmed-icon {
-  position:relative;
-  height: 50px;
-  padding: 10px;
-  float: left;
 }
