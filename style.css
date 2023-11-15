@@ -25,14 +25,6 @@ ul {
   width:100%;
   z-index: 99999;
 }
-ul.bottom {
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
-  background-color: rgb(4, 4, 4);
-  left:0px;
-  right:0px;
-}
 p {
   color: white;
   position: relative;
@@ -41,7 +33,6 @@ p {
   text-align: left;
   padding: 0px 50px;
   margin-top: 200px;
-
 }
 p.evan {
   color: white;
@@ -51,7 +42,6 @@ p.evan {
   text-align: left;
   padding: 0px 50px;
   margin-top: 0px;
-
 }
 p.phar {
   color: white;
@@ -62,7 +52,6 @@ p.phar {
   padding: 0px 50px;
   margin-top: 50px;
   line-height: 2;
-
 }
 img.sosmed-icon {
   position:relative;
@@ -90,7 +79,6 @@ button.about {
   border-color: white;
   border-style: none;
   background-color:rgb(4, 4, 4);
-  
 }
 button.sosmed-ig{
   float: left;
@@ -168,8 +156,6 @@ button:hover {
   background-color:white;
   border-color: white;
   color: black;
-
-  
 }
 button:active {
   background-color: white;
