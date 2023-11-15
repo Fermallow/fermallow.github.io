@@ -125,8 +125,11 @@ button.sosmed-ig{
 }
 button.sosmed-ig:hover {
   border: none;
-  background-image: url(media/instabackground.png);
+  background-color: rgb(254, 0, 117);
   color:white;
+}
+button.sosmed-ig:active {
+  background-color: rgb(254, 0, 117);
 }
 button.sosmed-yt{
   float: left;
@@ -143,8 +146,11 @@ button.sosmed-yt{
 }
 button.sosmed-yt:hover {
   border: none;
-  background-image: url(media/ytbackground.png);
+  background-color: rgb(255, 0, 0);
   color:white;
+}
+button.sosmed-yt:active {
+  background-color: rgb(255, 0, 0);
 }
 button.sosmed-spotify{
   float: left;
@@ -161,8 +167,11 @@ button.sosmed-spotify{
 }
 button.sosmed-spotify:hover {
   border: none;
-  background-image: url(media/spotifybackground.png);
+  background-color: rgb(30, 215, 96);
   color:white;
+}
+button.sosmed-spotify:active {
+  background-color: rgb(30, 215, 96);
 }
 button.sosmed-github{
   float: left;
@@ -179,9 +188,13 @@ button.sosmed-github{
 }
 button.sosmed-github:hover {
   border: none;
-  background-image: url(media/gitbackground.png);
+  background-color: rgb(1, 4, 9);
   color:white;
 }
+button.sosmed-github:active {
+  background-color: rgb(1, 4, 9);
+}
+butt
 button:hover {
   background-color:white;
   border-color: white;
@@ -190,7 +203,6 @@ button:hover {
 button:active {
   background-color: white;
   border-color: white;
-
   color: white;
 }
 button.fermallow:active {
