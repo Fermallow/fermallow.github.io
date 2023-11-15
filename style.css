@@ -32,26 +32,52 @@ p {
   font-size: 130px;
   text-align: left;
   padding: 0px 50px;
-  margin-top: 200px;
+  margin-top: 170px;
+  margin-bottom: 100px;
+}
+p.aboutme {
+  color: white;
+  position: relative;
+  font-family: clashdisplay;
+  font-size: 30px;
+  text-align: left;
+  padding: 0px 50px;
+  margin-top: 10px;
+  margin-bottom: 70px;
 }
 p.evan {
   color: white;
   position: relative;
   font-family: clashdisplay;
-  font-size: 30px;
+  font-size: 40px;
   text-align: left;
   padding: 0px 50px;
-  margin-top: 0px;
+  margin-top: 5px;
+  margin-bottom: 60px;
+  line-height: 0.5;
 }
-p.phar {
+p.info {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: montserrat;
+}
+p.evan-2ndrow {
   color: white;
-  position: relative;
   font-family: clashdisplay;
-  font-size: 30px;
+  font-size: 40px;
   text-align: left;
   padding: 0px 50px;
-  margin-top: 50px;
-  line-height: 2;
+  margin-top: 5px;
+  margin-bottom: 60px;
+  line-height: 0.5;
+}
+p.info-2ndrow {
+  text-align: left;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: montserrat;
 }
 img.sosmed-icon {
   position:relative;
@@ -85,7 +111,7 @@ button.sosmed-ig{
   margin-left: 50px;
   color: white;
   padding: 10px 20px;
-  font-family: clashdisplay;
+  font-family: montserrat;
   font-size: 30px;
   display:flex;
   align-items: center;
@@ -103,7 +129,7 @@ button.sosmed-yt{
   margin-left: 50px;
   color: white;
   padding: 10px 20px;
-  font-family: clashdisplay;
+  font-family: montserrat;
   font-size: 30px;
   display:flex;
   align-items: center;
@@ -121,7 +147,7 @@ button.sosmed-spotify{
   margin-left: 50px;
   color: white;
   padding: 10px 20px;
-  font-family: clashdisplay;
+  font-family: montserrat;
   font-size: 30px;
   display:flex;
   align-items: center;
@@ -139,7 +165,7 @@ button.sosmed-github{
   margin-left: 50px;
   color: white;
   padding: 10px 20px;
-  font-family: clashdisplay;
+  font-family: montserrat;
   font-size: 30px;
   display:flex;
   align-items: center;
