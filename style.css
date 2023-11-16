@@ -32,39 +32,39 @@ ul {
 p {
   color: white;
   position: relative;
-  font-family: clashdisplay;
-  font-size: 130px;
   text-align: center;
   margin-top: 170px;
   margin-bottom: 120px;
+  font-family: clashdisplay;
+  font-size: 130px;
 }
 p.evan {
   color: white;
   position: relative;
-  font-family: clashdisplay-semibold;
-  font-size: 40px;
   text-align: center;
   margin-top: 5px;
   margin-bottom: 80px;
   line-height: 0.5;
+  font-family: clashdisplay-semibold;
+  font-size: 40px;
 }
 p.info {
-  font-size: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: montserrat;
+  font-size: 25px;
 }
 img.sosmed-icon {
+  float: left;
   position:relative;
   height: 50px;
   padding: 10px;
-  float: left;
 }
 button.fermallow {
   float: left;
   display: block;
-  color: white;
   padding: 20px 30px;
+  color: white;
   font-family: clashdisplay;
   font-size: 50px;
   border-color: white;
@@ -72,11 +72,11 @@ button.fermallow {
   background-color: rgb(4, 4, 4);
 }
 button.about {
+  float: right;
   color: white;
+  padding: 20px 30px;
   font-family: clashdisplay;
   font-size: 50px;
-  float: right;
-  padding: 20px 30px;
   border-color: white;
   border-style: none;
   background-color:rgb(4, 4, 4);
