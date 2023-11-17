@@ -181,6 +181,31 @@ button.sosmed-github:hover {
 button.sosmed-github:active {
   background-color: rgb(1, 4, 9);
 }
+button.sosmed-tele{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 10px 50px;
+  display:flex;
+  align-items: center;
+  margin-top: 50px;
+  color: white;
+  font-family: montserrat;
+  font-size: 30px;
+  border-color: white;
+  border-style: none;
+  background-color: rgb(12, 12, 12);
+}
+button.sosmed-tele:hover {
+  border: none;
+  background-color: rgb(39, 167, 231);
+  color:white;
+}
+button.sosmed-tele:active {
+  background-color: rgb(39, 167, 231);
+}
 button:hover {
   background-color:white;
   border-color: white;
