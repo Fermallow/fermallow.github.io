@@ -50,9 +50,19 @@ p.evan {
 }
 p.info {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   font-family: montserrat;
   font-size: 25px;
+}
+p.quotes {
+  font-size: 60px;
+  margin-bottom: 10px;
+  word-spacing: 15px;
+}
+  p.quotes-maker {
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: montserrat;
 }
 img.sosmed-icon {
   float: left;
