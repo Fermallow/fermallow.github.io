@@ -30,7 +30,7 @@ ul {
   z-index: 99999;
 }
 p {
-  color: white;
+  color: rgb(242, 242, 242);
   position: relative;
   text-align: center;
   margin-top: 200px;
@@ -39,7 +39,7 @@ p {
   font-size: 130px;
 }
 p.evan {
-  color: white;
+  color: rgb(242, 242, 242);
   position: relative;
   text-align: center;
   margin-top: 5px;
@@ -65,10 +65,10 @@ a.fermallow {
   float: left;
   display: block;
   padding: 20px 30px;
-  color: white;
+  color: rgb(242, 242, 242);
   font-family: clashdisplay;
   font-size: 50px;
-  border-color: white;
+  border-color: rgb(242, 242, 242);
   border-style: none;
   background-color: rgb(4, 4, 4);
 }
@@ -82,10 +82,10 @@ button.sosmed{
   display:flex;
   align-items: center;
   margin-top: 50px;
-  color: white;
+  color: rgb(242, 242, 242);
   font-family: montserrat;
   font-size: 30px;
-  border-color: white;
+  border-color: rgb(242, 242, 242);
   border-style: none;
   background-color: rgb(12, 12, 12);
 }
@@ -93,8 +93,7 @@ button:hover {
   -webkit-filter: invert(100%);
 }
 button:active {
-  background-color: white;
-  border-color: white;
-  color: white;
+  background-color: rgb(242, 242, 242);
+  border-color: rgb(242, 242, 242);
+  color: rgb(242, 242, 242);
 }
-
