@@ -33,7 +33,7 @@ p {
   color: white;
   position: relative;
   text-align: center;
-  margin-top: 170px;
+  margin-top: 200px;
   margin-bottom: 120px;
   font-family: clashdisplay;
   font-size: 130px;
@@ -51,18 +51,9 @@ p.evan {
 p.info {
   margin-top: 10px;
   margin-bottom: 0px;
+  text-align: center;
   font-family: montserrat;
   font-size: 25px;
-}
-p.quotes {
-  font-size: 60px;
-  margin-bottom: 10px;
-  word-spacing: 15px;
-}
-  p.quotes-maker {
-    margin-top: 60px;
-    font-size: 30px;
-    font-family: montserrat;
 }
 img.sosmed-icon {
   float: left;
@@ -70,7 +61,7 @@ img.sosmed-icon {
   height: 50px;
   padding: 10px;
 }
-button.fermallow {
+a.fermallow {
   float: left;
   display: block;
   padding: 20px 30px;
@@ -81,17 +72,7 @@ button.fermallow {
   border-style: none;
   background-color: rgb(4, 4, 4);
 }
-button.about {
-  float: right;
-  color: white;
-  padding: 20px 30px;
-  font-family: clashdisplay;
-  font-size: 50px;
-  border-color: white;
-  border-style: none;
-  background-color:rgb(4, 4, 4);
-}
-button.sosmed-ig{
+button.sosmed{
   position: relative;
   top: 50%;
   left: 50%;
@@ -107,103 +88,13 @@ button.sosmed-ig{
   border-color: white;
   border-style: none;
   background-color: rgb(12, 12, 12);
-}
-button.sosmed-ig:hover {
-  border: none;
-  background-color: rgb(254, 0, 117);
-  color:white;
-}
-button.sosmed-ig:active {
-  background-color: rgb(254, 0, 117);
-}
-button.sosmed-yt{
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding: 10px 50px;
-  display:flex;
-  align-items: center;
-  margin-top: 50px;
-  color: white;
-  font-family: montserrat;
-  font-size: 30px;
-  border-color: white;
-  border-style: none;
-  background-color: rgb(12, 12, 12);
-}
-button.sosmed-yt:hover {
-  border: none;
-  background-color: rgb(255, 0, 0);
-  color:white;
-}
-button.sosmed-yt:active {
-  background-color: rgb(255, 0, 0);
-}
-button.sosmed-spotify{
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding: 10px 50px;
-  display:flex;
-  align-items: center;
-  margin-top: 50px;
-  color: white;
-  font-family: montserrat;
-  font-size: 30px;
-  border-color: white;
-  border-style: none;
-  background-color: rgb(12, 12, 12);
-}
-button.sosmed-spotify:hover {
-  border: none;
-  background-color: rgb(30, 215, 96);
-  color:white;
-}
-button.sosmed-spotify:active {
-  background-color: rgb(30, 215, 96);
-}
-button.sosmed-github{
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding: 10px 50px;
-  display:flex;
-  align-items: center;
-  margin-top: 50px;
-  color: white;
-  font-family: montserrat;
-  font-size: 30px;
-  border-color: white;
-  border-style: none;
-  background-color: rgb(12, 12, 12);
-}
-button.sosmed-github:hover {
-  border: none;
-  background-color: rgb(1, 4, 9);
-  color:white;
-}
-button.sosmed-github:active {
-  background-color: rgb(1, 4, 9);
 }
 button:hover {
-  background-color:white;
-  border-color: white;
-  color: black;
+  -webkit-filter: invert(100%);
 }
 button:active {
   background-color: white;
   border-color: white;
   color: white;
 }
-button.fermallow:active {
-  background-color: white;
-  border-color: white;
-  border-style: none;
-  color: black;
-}
+
