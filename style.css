@@ -3,71 +3,26 @@
   src: url(font/ClashDisplay-Medium.ttf);
 }
 @font-face {
-  font-family: clashdisplay-semibold;
-  src: url(font/ClashDisplay-Semibold.ttf);
-  }
-@font-face {
   font-family: montserrat;
   src: url(font/Montserrat-Medium.ttf);
-}
-@font-face {
-  font-family: jetbrains;
-  src: url(font/JetBrainsMono-Medium.ttf);
 }
 body {
   background-color: rgb(12, 12, 12);
 }
-ul {
-  padding: 0px;
-  margin: 0px;
-  background-color: rgb(4, 4, 4);
-  position:fixed;
-  top:0px;
-  left:0px;
-  right:0px;
-  width:100%;
-  z-index: 99999;
-}
 p {
   color: rgb(242, 242, 242);
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 120px;
   font-family: clashdisplay;
   font-size: 110px;
-}
-p.links {
-  margin-top: 100px;
-}
-p.evan {
-  margin-top: 5px;
-  margin-bottom: 80px;
-  line-height: 0.5;
-  font-family: clashdisplay-semibold;
-  font-size: 40px;
-}
-p.info {
-  margin-top: 10px;
-  margin-bottom: 0px;
-  font-family: montserrat;
-  font-size: 25px;
 }
 img.sosmed-icon {
   height: 50px;
   padding: 10px;
 }
-a.fermallow {
-  float: left;
-  padding: 20px 30px;
-  color: rgb(242, 242, 242);
-  font-family: clashdisplay;
-  font-size: 50px;
-}
 button.sosmed{
   position: relative;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   padding: 10px 130px;
   display:flex;
