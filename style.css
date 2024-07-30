@@ -15,6 +15,14 @@ p {
   font-family: clashdisplay;
   font-size: 110px;
 }
+p.intro {
+  color: rgb(242, 242, 242);
+  text-align: center;
+  font-family: montserrat;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 img.sosmed-icon {
   height: 50px;
   padding: 10px;
