@@ -9,17 +9,6 @@
 body {
   background-color: rgb(12, 12, 12);
 }
-ul {
-  padding: 0px;
-  margin: 0px;
-  background-color: rgb(4, 4, 4);
-  position:fixed;
-  top:0px;
-  left:0px;
-  right:0px;
-  width:100%;
-  z-index: 99999;
-}
 p {
   color: rgb(242, 242, 242);
   text-align: center;
