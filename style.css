@@ -1,53 +1,150 @@
 @font-face {
-  font-family: clashdisplay;
-  src: url(font/ClashDisplay-Medium.ttf);
-}
-@font-face {
-  font-family: montserrat;
-  src: url(font/Montserrat-Medium.ttf);
+    font-family: clashdisplay;
+    src: url(font/ClashDisplay-Medium.ttf);
+  }
+  @font-face {
+    font-family: montserrat;
+    src: url(font/Montserrat-Medium.ttf);
+  }
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 body {
-  background-color: rgb(12, 12, 12);
+    margin: 0;
+    font-family: clashdisplay;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    max-width: 90%;
+    margin: 0 100px;
+}
+h2 {
+    text-align: Left;
+    font-family: clashdisplay;
+    font-size: 42px;
+    font-weight: 600;
+    margin: 35px 0;
+}
+h3 {
+    text-align: Center;
+    font-family: clashdisplay;
+    font-size: 65px;
+    font-weight: 600;
+    padding: 50px;
+    margin: 0;
 }
 p {
-  color: rgb(242, 242, 242);
-  text-align: center;
-  font-family: clashdisplay;
-  font-size: 130px;
-  margin-top: 170px;
-  margin-bottom: 70px;
+    text-align: Left;
+    font-family: clashdisplay;
+    font-weight: 500;
+}
+header {
+    position: fixed;
+    width: 100%;
+    background: #f4e8e8;
+    top: 0;
+    transition: all 500ms ease;
+    z-index: 100;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav .logo {
+    font-family: clashdisplay;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000
+}
+.fill {
+    height: 66px;
+}
+.profile p {
+    font-family: montserrat;
+    text-align: Left;
+    margin: 5px 0 0;
+    font-size: 20px;
+}
+.links-card {
+    margin: 35px 0;
+}
+.links-content {
+    font-family: montserrat;
+    padding: 18px;
+    background: #f4e8e8;
+    width: 50%;
+    margin: 10px auto 35px;
+    text-align: center;
+}
+.links-content a {
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 500;
+}
+.links-content a .media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links-content a .media img {
+    height: 40px;
+    margin: auto 7px auto 0;
+    filter: invert(100%);
+}
+@media only screen and (max-width: 780px) {
+    .wrapper {
+        margin: 0 25px;
+    }
 
+    .links-content {
+        width: 50%;
+    }
 }
-a.fermallow {
-  float: left;
-  padding: 20px 30px;
-  color: rgb(242, 242, 242);
-  font-family: clashdisplay;
-  font-size: 50px;
+@media only screen and (min-width: 1440px) {
+    .fill {
+        height: 96px;
+    }
+    nav .logo {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    .links-content a {
+        font-size: 23px;
+    }
+    .links-content a .media img {
+        height: 40px;
+    }
 }
-img.sosmed-icon {
-  height: 50px;
-  padding: 10px;
+@media only screen and (min-width: 2560px) {
+    .fill {
+        height: 133px;
+    }
+
+    nav .logo {
+        font-size: 75px;
+    }
+    h2 {
+        font-size: 65px;
+    }
+    .links-content a {
+        font-size: 36px;
+    }
+
+    .links-content a .media img {
+        height: 46px;
+    }
 }
-.sosmed-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.sosmed{
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-gap: 10px;
-padding: 20px;
-width: 500px;
-background-color: rgb(12, 12, 12);
-font-size: 30px;
-font-family: montserrat;
-color: rgb(242, 242, 242);
-border-style: none;
-}
-.sosmed:hover {
-  filter: invert(100%);
+@media only screen and (min-width: 3840px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 }
