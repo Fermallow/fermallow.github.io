@@ -2,10 +2,11 @@
     font-family: clashdisplay;
     src: url(font/ClashDisplay-Medium.ttf);
   }
-  @font-face {
-    font-family: montserrat;
-    src: url(font/Montserrat-Medium.ttf);
+@font-face {
+    font-family: redhat;
+    src: url(font/RedHatDisplay-SemiBold.otf);
   }
+
 *,
 *::after,
 *::before {
@@ -64,7 +65,7 @@ nav .logo {
     height: 66px;
 }
 .profile p {
-    font-family: montserrat;
+    font-family: redhat;
     text-align: Left;
     margin: 5px 0 0;
     font-size: 20px;
@@ -73,7 +74,7 @@ nav .logo {
     margin: 35px 0;
 }
 .links-content {
-    font-family: montserrat;
+    font-family: redhat;
     padding: 18px;
     background: #f4e8e8;
     width: 40%;
@@ -82,7 +83,7 @@ nav .logo {
 }
 .links-content a {
     text-decoration: none;
-    font-family: montserrat;
+    font-family: redhat;
     font-size: 20px;
     font-weight: 500;
 }
